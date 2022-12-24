@@ -42,9 +42,22 @@ body {
   background-clip: text;
 }
 
-.card p {
+.card .typewriter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   text-align: center;
+}
+
+.card .text-writer {
+  color: #1aa37a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card .typewriter span {
+  margin-right: 10px;
 }
 
 .mt-16 {
